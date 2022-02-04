@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="./images/favicon.png">
+
+    <!--DEFINIR RUTA DE CSS CAJAS-->
+    <link rel="stylesheet" href="./css/cajas.css">
+
+    <!--DEFINIR EL TITULO DE LA PAGINA WEB (VISIBLE EN PARTE SUPERIOR)-->
+    <title>Finantzak mintegia</title>
+</head>
+
+<body>
+
+
+    <!--WEB ORRIAREN HEADER ATALA-->
+    <header>
+
+        <!--REDES - BLOQUE SIN MARGEN-->
+        <div class="sinmargen" id="bloque-redes">
+
+            <!--BLOQUE CON MARGEN-->
+            <div class="bloque-contenido">
+
+                <!--LISTA PARA ICONOS DE REDES SOCIALES-->
+                <ul id="lista-redes">
+
+                    <!--DEFINIR ICONO TWITTER-->
+                    <li>
+                        <a href="#">
+                            <img class="iconos-redes" src="./images/twitter.png">
+                        </a>
+                    </li>
+
+                    <!--DEFINIR ICONO INSTAGRAM-->
+                    <li>
+                        <a href="#">
+                            <img class="iconos-redes" src="./images/instagram.png">
+                        </a>
+                    </li>
+
+                    <!--DEFINIR ICONO FACEBOOK-->
+                    <li>
+                        <a href="#">
+                            <img class="iconos-redes" src="./images/facebook.png">
+                        </a> </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--MENU - BLOQUE SIN MARGEN-->
+        <div class="sinmargen" id="nav-main">
+
+            <!--BLOQUE CON MARGEN-->
+            <div class="bloque-contenido">
+
+                <!--PARTE SUPERIOR (1) DEL MENU-->
+                <div id="caja-menu-1">
+
+                    <!--TXURDINAGA LOGOTIPO-->
+                    <a href="#"><img src="./images/txurdi.png" id="txurdi-logo"></a>
+
+                    <!--ETXEA LOGOTIPO-->
+                    <div id="caja-casa"><a href="./index.html"><img id="home-logoa" src="./images/home.png"></a>
+                    </div>
+
+                    <!--BUSCADOR-->
+                    <div class="caja-buscador">
+
+                        <!--CONTENEDOR DEL BUSCADOR-->
+                        <div class="caja-buscador-container">
+
+                            <!--INTERIOR DEL BUSCADOR-->
+                            <input type="search" id="buscar" placeholder="Bilatu..." />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--PARTE INFERIOR (2) DEL MENU (NAV)-->
+                <nav>
+                    <div id="nav">
+                        <ul>
+                            <li><a href="#">Nagusia</a></li>
+                            <li><a href="./pages/berriak.html">Berriak</a>
+                            <li><a href="./pages/ekitaldiak.html">Ekitaldiak</a>
+                            <li><a href="./pages/ordutegiak.html">Ordutegiak</a></li>
+                            <li><a href="./pages/harremanetan-jarri.html">Harremanetan jarri</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!--WEB ORRIAREN EDUKIERA-->
+    <section>
+
+        <!--BLOQUE DE AGENDA-->
+        <div class="sinmargen" id="bloque-agenda">
+            <div class="bloque-contenido">
+                <h1 class="in-block" id="titulos-contenido">Agenda: hurrengo ekitaldiak</h1>
+                <button class="in-block-boton">Agenda gehiago erakutsi <span class="bold">></span></button>
+                <div id="separador">
+                    <center>
+                        <div class="cajas-agenda" id="caja-agenda-1">
+                            <p class="agenda-mini-titulo">Ikasleak</p>
+                            <h2 class="agenda-titulo">Txokolatada</h2>
+                            <p class="agenda-descripcion">Hurrengo ostiralean, urtarrilak 28 CIFP Txurdinaga zentroan
+                                txokolatada egongo da erdi mailako lehenengo eta bigarren urteko ikasleontzat.</p>
+                            <img class="agenda-imagen" src="images/txokolatada.jpg">
+                            <div id="separador"></div>
+                            <p class="in-block" id="agenda-fecha">URT.24</p>
+                            <button class="in-block" id="agenda-boton">>>gehiago</button>
+                        </div>
+
+                        <div class="cajas-agenda" id="caja-agenda-2">
+                            <p class="agenda-mini-titulo">Finantzak</p>
+                            <h2 class="agenda-titulo">Wall Street</h2>
+                            <p class="agenda-descripcion">Otsailak 7an, astelehena finantzak ikastaroko ikasleak ireera
+                                bat izango dute Wall Street-era.</p>
+                            <img class="agenda-imagen" src="images/wallstreet.jpg">
+                            <div id="separador"></div>
+                            <p class="in-block" id="agenda-fecha">URT.18</p>
+                            <button class="in-block" id="agenda-boton">>>gehiago</button>
+                        </div>
+
+                        <div class="cajas-agenda" id="caja-agenda-3">
+                            <p class="agenda-mini-titulo">Ikasleak</p>
+                            <h2 class="agenda-titulo">Greba</h2>
+                            <p class="agenda-descripcion">Urtarrilak 26an irakasle greba egongo da. Derrigorrezkoa da
+                                ikasleak klasera etortzea, egun normala balitz bezala.</p>
+                            <img class="agenda-imagen" src="images/greba.jpg">
+                            <div id="separador"></div>
+                            <p class="in-block" id="agenda-fecha">URT.12</p>
+                            <button class="in-block" id="agenda-boton">>>gehiago</button>
+                        </div>
+
+                        <div class="cajas-agenda" id="caja-agenda-4">
+                            <p class="agenda-mini-titulo">Finantzak</p>
+                            <h2 class="agenda-titulo">TxurdiWin</h2>
+                            <p class="agenda-descripcion">Finantzak ikastaroaren ikasleen artean TxurdiWin lehiaketa
+                                ospatuko da otsailak 10ean.</p>
+                            <img class="agenda-imagen" src="images/lehiaketa.jpg">
+                            <div id="separador"></div>
+                            <p class="in-block" id="agenda-fecha">URT.09</p>
+                            <button class="in-block" id="agenda-boton">>>gehiago</button>
+                        </div>
+                    </center>
+                </div>
+                <div id="separador">
+                    <center>
+                        <a href="#" class="sin-subrayado">
+                            <div class="cajas-agenda2" id="cajita1"><img src="./images/azul.png">
+                                <p class="texto-cajita">Ikasleak</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sin-subrayado">
+                            <div class="cajas-agenda2" id="cajita2"><img src="./images/naranja.png">
+                                <p class="texto-cajita">Mezu elektronikoa</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sin-subrayado">
+                            <div class="cajas-agenda2" id="cajita3"><img src="./images/gris.png">
+                                <p class="texto-cajita">Tramiteak</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sin-subrayado">
+                            <div class="cajas-agenda2" id="cajita4"><img src="./images/verde.png">
+                                <p class="texto-cajita">Orientazioa</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sin-subrayado">
+                            <div class="cajas-agenda2" id="cajita5"><img src="./images/rojo.png">
+                                <p class="texto-cajita">Aurretiko hitzordua</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sin-subrayado">
+                            <div class="cajas-agenda2" id="cajita6"><img src="./images/amarillo.png">
+                                <p class="texto-cajita">Proiektuak</p>
+                            </div>
+                        </a>
+
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--BLOQUE DE NOVEDADES-->
+        <div class="sinmargen" id="bloque-novedades">
+            <div class="bloque-contenido">
+                <h1 class="in-block" id="titulos-contenido">Berriak</h1>
+                <button class="in-block-boton">Berri gehiago ikusi <span class="bold">></span></button>
+                <div id="separador">
+                    <center>
+                        <div class="cajas-novedades" id="caja-novedades-1">
+                            <a class="sin-subrayado" href="#">
+                                <p class="titulos-novedades">COVID bidezko heriotzen gorakada Hego Euskal Herrian,
+                                    ziurtatutako positiboen beherakada gorabehera
+                                </p>
+                            </a>
+                            <center>
+                                <img class="imagen-novedades" src="./images/covid-euskadi.jpg">
+                            </center>
+                            <p class="texto-novedades">Ez da ohikoa, eta tendentzia aldaketa bat erakusten du:
+                                Covid-19ak erabat baldintzatutako urteak izan arren, kontratu asko esleitu ditu
+                                Galdakaoko Udalak; herrian alor eta mota guztietako lanak egin ...</p>
+                            <p class="fecha-novedades">URT.02</p>
+                            <button class="boton-novedades">gehiago ></button>
+                        </div>
+
+
+                        <div class="cajas-novedades" id="caja-novedades-2">
+                            <a class="sin-subrayado" href="#">
+                                <p class="titulos-novedades">Korrikaren lekukoak CIFP Txurdinaga ikastetxeak eramango du
+                                    urte honetan.
+                                </p>
+                            </a>
+                            <center>
+                                <img class="imagen-novedades" src="./images/korrika2022.jpg">
+                            </center>
+                            <p class="texto-novedades">Korrikaren ibilbidearen berri eman dute: Mendebaldean hasiko da,
+                                eta Gasteiz izango da igaroko duen lehen hiriburua. 2.180 kilometro eginda, Donostiara
+                                iritsiko da lasterketa...
+                            </p>
+                            <p class="fecha-novedades">URT.02</p>
+                            <button class="boton-novedades">gehiago ></button>
+                        </div>
+
+
+                        <div class="cajas-novedades" id="caja-novedades-3">
+                            <a class="sin-subrayado" href="#">
+                                <p class="titulos-novedades">Gaurtik, 18 urtetik gorakoek hirugarren dosia jartzeko
+                                    ordua har dezakete Euskal Herri osoan</p>
+                            </a>
+                            <center>
+                                <img class="imagen-novedades" src="./images/txertoa.jpg">
+                            </center>
+                            <p class="texto-novedades">Gaurtik aurrera, 18 eta 29 urte bitarteko gazteei ere hasiko
+                                zaizkie bidaltzen COVID-19aren hirugarren txertoa jartzeko SMS mezua Hego Euskal
+                                Herrian. Iparraldean, berriz, aukera hori zabalik da azaro bukaeratik. ...</p>
+                            <p class="fecha-novedades">URT.02</p>
+                            <button class="boton-novedades">gehiago ></button>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <center>
+            <div id="footer-copy">
+                <p>Copyright ©2022 Eskubide guztiak erreserbatuak | Web orri hau <a id="footer-link" href="#">Finantzak
+                        Mintegia</a> garatua.</p>
+            </div>
+            <div id="footer-list">
+                <ul>
+                    <li><a id="footer-link" href="./pages/legezko-abisua.html">Legezko abisua</a></li>
+                    <li><a id="footer-link" href="./pages/pribatasun-politika.html">Pribatasun politika</a></li>
+                </ul>
+            </div>
+        </center>
+    </footer>
+
+
+</body>
+
+</html>
